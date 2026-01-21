@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elite Event Rentals</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <h2>Elite Rentals</h2>
+</header>
+
+<section class="hero">
+  <h1>Event & Party Rentals</h1>
+  <p>Luxury rentals for unforgettable events</p>
+</section>
+
+<section class="section">
+  <h2>Available Rentals</h2>
+  <div id="productList" class="cards"></div>
+</section>
+
+<section class="section alt">
+  <h2>Book a Rental</h2>
+  <form id="bookingForm">
+    <select id="productSelect" required></select>
+    <input type="date" id="date" required />
+    <input type="number" id="quantity" min="1" value="1" required />
+    <button class="btn">Book Now</button>
+  </form>
+  <p id="bookingStatus"></p>
+</section>
+
+<footer>
+  <p>© 2026 Elite Event Rentals</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

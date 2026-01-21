@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Luxury Wedding Tent", "price": 1200, "description": "Elegant tent for large events" },
+  { "id": 2, "name": "Chiavari Chairs (50)", "price": 350, "description": "Gold chiavari chairs set of 50" },
+  { "id": 3, "name": "LED Uplighting Package", "price": 450, "description": "Wireless uplighting system" }
+]
